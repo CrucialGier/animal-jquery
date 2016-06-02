@@ -11,25 +11,94 @@
 
     <div class="container">
 
-      <h1>Learn About Animals</h1>
-      <h2>Pick your Favorite</h2>
-      <div class="row">
+      <h1>Which animal should you have as a pet?</h1>
+      <h2>Answer these questions:</h2>
 
-        <div class="col-md-4" id="snake">
-          <img src="img/snake.jpg" alt="Snake">
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <form class="form-group" action="index.html" method="post">
+        <label for="form-control">If you saw a baby in a burning building, would you:</label>
+        <select class="form-control" id="answer1">
+          <option value="option"></option>
+          <option value="1">Pretend you are deaf and walk away.</option>
+          <option value="2">Apologize to the baby and walk away.</option>
+          <option value="3">Enter the building, decide it's too hot, and leave.</option>
+          <option value="4">Die while trying to rescue the baby.</option>
+        </select>
+
+        <label for="form-control">What nickname best describes you?</label>
+        <select class="form-control" id="answer2">
+          <option value="option"></option>
+          <option value="1">Pet killer</option>
+          <option value="2">Serial killer</option>
+          <option value="3">Bob</option>
+          <option value="4">Angelface sweetie pie cutie.</option>
+        </select>
+
+        <label for="form-control">How much time do you have for your pet each day?</label>
+        <select class="form-control" id="answer3">
+          <option value="option"></option>
+          <option value="1">No time</option>
+          <option value="2">10 minutes</option>
+          <option value="3">45 minutes</option>
+          <option value="4">7 hours</option>
+        </select>
+
+        <label for="form-control">If you were going to buy a car, what would you buy?</label>
+        <select class="form-control" id="answer4">
+          <option value="option"></option>
+          <option value="1">Wheelbarrow</option>
+          <option value="2">1987 Toyota Camry</option>
+          <option value="3">2013 Volkswagen Jetta</option>
+          <option value="4">2016 Bugatti Veyron</option>
+        </select>
+
+        <button id="pet-choose" type="button" name="button">Find out which pet you should have!</button>
+
+      </form>
+    </div>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-3" id="snake">
+            <img src="img/snake.jpg" alt="Snake">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+
+          <div class="col-md-3" id="turtle">
+            <img src="img/turtle.jpg" alt="Turtle">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+
+          <div class="col-md-3" id="rock">
+            <img src="img/rock.png" alt="rock">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+
+          <div class="col-md-3" id="bunny">
+            <img src="img/bunny.jpg" alt="bunny">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+
+          <div class="col-md-3" id="duck">
+            <img src="img/duck.jpg" alt="duck">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+
+          <div class="col-md-3" id="hamham">
+            <img src="img/hamham.jpg" alt="hamster">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+
+          <div class="col-md-3" id="hedgehog">
+            <img src="img/hedgehog.jpg" alt="hedgehog">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+
+          <div class="col-md-3" id="puppy">
+            <img src="img/puppy.jpg" alt="puppy">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+
         </div>
-
-        <div class="col-md-4" id="turtle">
-          <img src="img/turtle.jpg" alt="Turtle">
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        </div>
-
-        <div class="col-md-4" id="caterpillar">
-          <img src="img/caterpillar.jpg" alt="bug">
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        </div>
-
       </div>
 
     </div>
